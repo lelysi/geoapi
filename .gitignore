@@ -10,8 +10,5 @@ www/geoapi/vendor/*
 # IDE files inside service
 www/geoapi/.idea/*
 
-# database
-mysql/*
-
 # cache
 cache/*
