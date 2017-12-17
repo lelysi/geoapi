@@ -10,7 +10,6 @@ class Action implements \GIP\Api\Action
 {
 	public function __invoke(Request $request, Response $response)
 	{
-
 		$ip = $request->paramsGet()->get('ip');
 		if (is_null($ip))
 			return $response->json([])->code(404);

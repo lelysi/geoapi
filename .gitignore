@@ -12,3 +12,6 @@ www/geoapi/.idea/*
 
 # database
 mysql/*
+
+# cache
+cache/*
