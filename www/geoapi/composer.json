@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/lelysi",
-    "authors": {
+    "authors": [
         "name": "Denis Makovey",
         "homepage": "https://github.com/lelysi",
         "role": "Developer"
-    },
+    ],
     "require": {
         "klein/klein": "^2.1",
         "illuminate/database": "^5.5"

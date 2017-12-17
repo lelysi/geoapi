@@ -4,16 +4,20 @@ Service GeoAPI
 
 ## Getting Started
 
-run 
-docker-compose up -d
-in project folder
-open 
-http://127.0.0.1/ip2geo?ip=000.000.000.000 
-address and replace 000.000.000.000 with your ip
+* run
+* composer update in www/ directory
+* run 
+* docker-compose up -d
+* in project folder
+* open 
+* http://127.0.0.1/ip2geo?ip=000.000.000.000 
+* and replace 000.000.000.000 with your ip
+
+If container with nginx is not started, a possible cause that your 80 port may be used, try to change its in docker-compose file (81 for instance)
 
 ### Prerequisites
 
-You have to install docker
+You need to have docker and composer installed
 
 ## Built With
 
