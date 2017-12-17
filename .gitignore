@@ -1,0 +1,14 @@
+# logs
+logs/*
+
+# composer.lock for a while
+www/geoapi/composer.lock
+
+# vendors
+www/geoapi/vendor/*
+
+# IDE files inside service
+www/geoapi/.idea/*
+
+# database
+mysql/*

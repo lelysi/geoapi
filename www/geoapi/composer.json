@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/lelysi",
+    "authors": {
+        "name": "Denis Makovey",
+        "homepage": "https://github.com/lelysi",
+        "role": "Developer"
+    },
+    "require": {
+        "klein/klein": "^2.1",
+        "illuminate/database": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "GIP\\": "src/",
+            "DB\\": "db/"
+        }
+    }
+}
