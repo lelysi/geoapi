@@ -1,6 +1,6 @@
 # Project Title
 
-Service GeoAPI
+Service GeoIP
 
 ## Getting Started
 
